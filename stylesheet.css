@@ -1,0 +1,135 @@
+nav a:hover {
+	text-decoration: none;
+	color: #009ee0;
+}
+nav a {
+	text-decoration: none;
+	color: #585858;
+}
+.active {
+	color: #009ee0;
+}
+body {
+	background-color: #efefef;
+}
+h1 {
+	font-family: Georgia, Times, serif;
+	text-transform: uppercase;
+	font-size: 30px;
+	text-align: center;
+	color: #009ee0;
+}
+h2 {
+	font-family: Verdana;
+	text-transform: uppercase;
+	font-size: 15px;
+	text-align: center;
+}
+h3 {
+	font-family: Verdana;
+	font-size: 12px;
+	text-align: center;
+}
+#wrapper {
+	background-color: white;
+	width: 80%;
+	margin: auto;
+	max-width: 610px;
+	padding: 2em;
+}
+.display1 {
+	width: 50%;
+	height: 50%;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+.display2 {
+	width: 85%;
+	height: 85%;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+.display3 {
+	width: 30%;
+	height: 30%;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+.display4 {
+	width: 50%;
+	height: 50%;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 1em;
+	text-align: center;
+}
+nav li {
+	display: inline;
+	padding: 1em;
+	font-style: italic;
+	font-family: Georgia, Times, serif;
+}
+.display {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px 10px 10px;
+}
+header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	margin: 0px;
+	padding: 10px;
+	width: 100%;
+	background-color: #efefef;
+	z-index: 10;
+}
+article {
+	padding-top: 130px;
+	font-family: Verdana;
+	font-size: 13px;
+}
+.lead {
+	font-weight: bold;
+	line-height: 1.6em;
+}
+.broodtekst {
+    -webkit-column-count: 2;
+    -webkit-column-gap: 25px;
+    padding-top: 10px;
+}
+.QA p:first-letter {
+	font-family: Georgia, Times, serif; 
+	font-size: 16px;
+	color: #009ee0;
+	text-transform: uppercase;
+}
+.contact_gegevens {
+	text-align: center;
+}
+footer {
+	font-family: Verdana;
+	font-size: 10px;
+	text-align: center;
+	padding: 20px 10px 0px 10px;
+}
+blockquote {
+	width: 255px;
+	font-size: 130%;
+	font-style: italic;
+	font-family: Georgia, Times, serif;
+	margin: 0px 0px 10px 10px;
+	padding: 10px;
+	border-top: 1px solid #665544;
+	border-bottom: 1px solid #665544;
+	color: #585858;
+}
