@@ -1,0 +1,200 @@
+* {
+	font-family: helvetica, sans-serif;
+}
+p,
+li {
+	font-family: 'Lora', serif;
+}
+article a:hover {
+	text-decoration: underline;
+}
+a:visited {
+	color: black;
+}
+
+a {
+	text-decoration: none;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #dfdfdf;
+}
+
+body > section {
+	background-image: url('../afb/concerto_back.jpg');
+	width: 100%;
+	height: 200px;
+}
+
+header p > a:hover {
+	text-decoration: underline;
+}
+header > h1 {
+	position: absolute;
+	margin: 0;
+	top: 0.5em;
+    left: 2.15em;
+    z-index: 1;
+    color: #FC626C;
+}
+header > nav {
+	position: absolute;
+	padding-top: 1.6em;
+    left: 29em;
+    z-index: 1;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+}
+nav li {
+	display: inline;
+}
+nav li > a {
+	margin: 1em;
+	font-weight: bold;
+	font-size: 1em;
+	padding: 0.4em;
+	border: solid 1px #cccccc;
+	background-color: #f2f2f2;
+	border-radius: 3px;
+}
+nav li > a:hover {
+	background-color: #a5a5a3;
+	color: white;
+}
+header {
+	width: 100%;
+	height: 4.5em;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	border-bottom: solid 1px #cccccc;
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+	z-index: 11111;
+	position: absolute;
+	top: 130px;
+}
+header p {
+	position: absolute;
+	top: 0.59em;
+	left: 63em;
+}
+
+header p a {
+	color: black;
+}
+main {
+	padding-top: 2em;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	justify-content: center;
+}	
+article p {
+	font-size: 1em;
+	line-height: 1.4em;
+}
+article em {
+	font-size: 1.3em;
+	font-style: italic;
+	font-family: Georgia, Times, serif;
+	line-height: 1.5em;
+	color: #585858;
+}
+article {
+	width: 47em;
+	margin: 1em;
+	padding: 1.2em;
+	border: solid 1px #cccccc;
+	background-color: white;
+	border-radius: 3px;
+}
+article > ul > li:first-of-type {
+	font-family: helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-bottom: 0.5em;
+}
+article > ul li:last-of-type {
+	margin-top: 0.6em;
+}
+article > img {
+	float: left;
+	width: 33%;
+	height: 33%;
+	margin-bottom: 2em;
+}
+article > ul {
+	float: left;
+	line-height: 1.5em;
+}
+article > ol {
+	clear: both;
+}
+article > p > a:visited {
+	color: #9F22CC;
+}
+article > p > a {
+	color: #9F22CC;
+}
+
+article ul li input {
+	font-weight: bold;
+	font-size: 1em;
+	padding: 0.4em;
+	border: solid 1px #cccccc;
+	background-color: #f2f2f2;
+	border-radius: 3px;
+}
+
+article ul li input:hover {
+	background-color: #a5a5a3;
+	color: white;
+}
+aside {
+	width: 17em;
+	margin: 1em;
+	padding: 1.2em;
+	border: solid 1px #cccccc;
+	background-color: #f2f2f2;
+	border-radius: 3px;
+}
+aside img {
+	float: left;
+	clear: both;
+	width: 25%;
+	height: 25%;
+	margin-bottom: 1.3em;
+}
+aside h4 {
+	float: left;
+	clear: both;
+	margin: 0;
+	padding-bottom: 0.3em;
+}
+footer {
+	width: 68.5em;
+	margin: auto;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	padding: 1.2em;
+	text-align: center;	
+}
+footer a {
+	color: #83DF00;
+}
+footer a:visited {
+	color: #83DF00;
+}
+footer a:hover {
+	text-decoration: underline;
+}
+.is-invisible {
+	display: none;
+}
+.is-visible {
+	display: block;
+}

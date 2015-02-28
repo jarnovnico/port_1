@@ -1,0 +1,18 @@
+<% include ../partials/header %>
+
+<h1>Photos</h1>
+
+<% files.forEach(function (file, index){ %>
+	<div class="photo">
+		<img class="imageupload" src= "<%= "/uploads/" + file %>">
+		
+		<h2>Comments</h2>
+
+		<form class ="formcomment"method="post" action="/uploads/showuploads">
+			<textarea name="comment" >Enter text here...</textarea>
+			<input type="submit" value="Post comment">
+		</form>
+	</div>
+<% }); %>
+
+<% include ../partials/footer %>
