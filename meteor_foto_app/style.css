@@ -1,0 +1,217 @@
+body {
+  font-family: sans-serif;
+  background-color: #eaeaea;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  padding: 0;
+  margin: 0;
+
+  font-size: 1em;
+}
+.container {
+  float: left;
+  max-width: 40em;
+  margin-right: 0.5em;
+  margin-left: 0.5em; 
+  margin-top: 6em;  
+  min-height: 100%;
+  overflow-x: hidden;
+  background: white;
+  border-radius: 3px;
+}
+.container p {
+  margin-left: 1em;
+}
+main {
+  max-width: 61em;
+  margin:0 auto;
+}
+header {
+  padding: 1em;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  border-bottom: solid 1px gray;
+}
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+  display: inline-block;
+  float: left;
+}
+h2 {
+  font-size: 1.25em;
+}
+form {
+  margin-top: 1em;
+  position: relative;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+	list-style: none;
+	padding: 1.2em;
+	border-bottom: #eee solid 1px;
+}
+aside {
+  min-width: 18.750em;
+  overflow-x: hidden;
+  overflow-y: hidden; 
+  float: left;
+  margin-top: 6em;
+  margin-right: 0.5em;
+  margin-left: 0.5em; 
+  background: white;
+  border-radius: 3px;
+}
+aside > h2 {
+  margin-left: 1em;
+}
+footer {
+  clear: both;
+  max-width: 40em;
+  height: 4em;
+  margin: auto;
+}
+footer > p {
+  text-align: center;
+  padding: 2em;
+  font-size: 0.8em;
+  color: gray;
+}
+#login-buttons {
+  display: block;
+  float: left;
+  margin-left: 2em;
+}
+.the-photo {
+  width: 100%;
+  margin-top: 1em;
+}
+.photo-button {
+  background: none;
+  font-weight: bold;
+  margin-top: 1em;
+  border: none;
+  font-size: 1em;
+  background-color: #4d9ed0;
+  border-radius: 3px;
+  padding: 0.5em;
+  color: white;
+}
+.photo-button:hover {
+  background-color: #193058;
+}
+.loc-button {
+  background: none;
+  font-weight: bold;
+  margin-top: 1em;
+  border: none;
+  font-size: 1em;
+  background-color: #4d9ed0;
+  border-radius: 3px;
+  padding: 0.5em;
+  color: white;
+}
+.loc-button:hover {
+  background-color: #193058;
+}
+.delete {
+  float: right;
+  font-weight: bold;
+  background: none;
+  font-size: 1em;
+  border: none;
+  position: relative;
+}
+.new-comment input {
+  box-sizing: border-box;
+  padding: 1em 0;
+  background: transparent;
+  border: none;
+  width: 100%;
+  padding-right: 80px;
+  font-size: 1em;
+}
+.new-comment input[placeholder="Type to add a comment"]{
+	padding-left: 1em;
+}
+.photo-button {
+	margin-left: 1em;
+}
+@media (max-width: 600px) {
+  body {
+    background-color: white;
+  }
+  header {
+    margin: 0;
+    background-color: #e1e1e1;
+    box-shadow: 
+      -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+      -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+      box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  }
+  main {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .container {
+    width: 100%;
+    margin-top: 5.5em;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0;
+  }
+  h1{
+    font-size: 1.2em;
+    clear: both;
+  }
+  aside {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    margin-top: 4em;
+  }
+  .kaart {
+    width: 100%;
+    margin: 0;
+  }
+  /*.camera-overlay {
+    margin: 0 auto;
+    padding: 0;
+  }
+  .camera-popup {
+    width: 20em;
+    height: 17em;
+    padding: 0.5em;
+    margin: auto;
+  }
+  .button-shutter{
+    margin: 0;
+  }
+  .button-cancel {
+    margin: 0;
+  }
+  .button.use-photo {
+    margin: 0;
+  }
+  .button.new-photo{
+    margin: 0;
+  }*/
+  #login-buttons {
+    clear: both;
+    margin-top: 1em;
+    padding: 0;
+  }
+  footer {
+    display: none;
+  }
+}
