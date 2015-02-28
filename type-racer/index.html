@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Type Race Deeltoets 3</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="wrapper">
+    <form id="contact-form" action="" method="post">
+        <fieldset>
+
+            <legend>T.y.p.e. R.a.c.e.</legend>
+
+                <p>Type the words as fast as you can!</p></<br>
+                <div id="textTime">Your time is:</div>
+                <h1><time class="time">00</time></h1>
+
+                <img id="lambo" src="img/car.png" alt="lambo" onclick="onClick();">
+
+                    <div class="labels">
+
+                        <label for="0">Car</label>
+                        <input type="text" id="0" tabindex="2" required>
+
+                        <label for="1">Houselab</label>
+                        <input type="text" id="1" tabindex="3" required>
+
+                        <label for="2">Mobilephoneholder</label>
+                        <input type="text" id="2" tabindex="4" required>
+
+                        <label for="3">Headsetconfiguration</label>
+                        <input  type="text" id="3" tabindex="5" required>
+
+                        <label for="4">Aligatorfarm</label>
+                        <input type="text" id="4" tabindex="6" required>
+
+                        <label for="5">Computerscience</label>
+                        <input type="text" id="5" tabindex="7" required>
+
+                        <label for="6">Urbandictionary</label>
+                        <input type="text" id="6" tabindex="8" required>
+
+                        <label for="7">Championsleague</label>
+                        <input  type="text" id="7" tabindex="9" required>
+
+                        <label id="scoreText" for="8">Score:</label>
+                        <input type="text" name="score" id="score" value="0" readonly>
+
+                    </div>
+
+                <button id="stop">TRY AGAIN / STOP</button>
+        
+        </fieldset>
+    
+    </form>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

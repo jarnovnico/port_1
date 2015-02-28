@@ -1,0 +1,109 @@
+fieldset {
+	font-family: Courier;
+	font-size: 13px;
+}
+#lambo {
+    position:fixed; 
+    left: 1em;
+    top: 1em;
+}
+#lambo.position1 { 
+    left: 140px;
+}
+#lambo.position2 { 
+    left: 280px;
+}
+#lambo.position3 { 
+    left: 420px;
+}
+#lambo.position4 { 
+    left: 560px;
+}
+#lambo.position5 { 
+    left: 700px;
+}
+#lambo.position6 { 
+    left: 840px;
+}
+#lambo.position7 { 
+    left: 980px;
+}
+#lambo.position8 { 
+    left: 1120px;
+}
+legend {
+	font-family: Courier, Georgia, Times, serif;
+	text-transform: uppercase;
+	font-size: 30px;
+	text-align: center;
+	color: #009ee0;
+}
+h1 {
+    color: tomato;
+    font-size: 16px;
+    font-family: OCR A Std;
+    margin-left: 22.4em;
+    margin-top: 0.5em;
+}
+p {
+	font-family: Courier;
+    font-size: 14px;
+	text-align: center;
+    color: black;
+}
+body {
+	background-color: #efefef;
+}
+#wrapper {
+	background-color: white;
+	width: 80%;
+	margin: auto;
+	max-width: 800px;
+	padding: 2em;
+	margin-top: 3em;
+    margin-bottom: 3em;
+}
+input {
+    font-family: Courier;
+    float: left;
+    clear: both;
+    width: 200px;
+    margin-left: 25em;
+}
+label {
+    font-family: Courier;
+    float: left;
+    clear: both;
+    margin-top: 1em;
+    margin-left: 21.2em;
+}
+#stop {
+    font-family: OCR A Std;
+    float: left;
+    clear: both;
+    margin-top: 3em;
+    margin-left: 25em;
+    margin-bottom: 4em;
+    width: 206px;
+}
+#score {
+    color: #009ee0;
+    font-family: OCR A Std;
+}
+#scoreText {
+    color: #009ee0;
+    font-family: OCR A Std;
+    margin-top: 2em;
+}
+#textTime {
+    font-family: OCR A Std;
+    color: tomato;
+    padding-left: 24em;
+    padding-top: 2em;
+}
+.wrong {
+	background-color: #dd746e;
+}
+.correct {
+	background-color: #b4fe9a;
+}

@@ -1,0 +1,401 @@
+* {
+	font-family: helvetica, sans-serif;
+}
+p {
+	font-family: garamond, serif;
+}
+article p {
+	font-size: 1.2em;
+	line-height: 1.4em;
+}
+aside p {
+	font-size: 1em;
+	line-height: 1.2em;
+}
+body {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	justify-content: center;
+	background-color: #C7FFF9;
+}
+body > header {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: white;
+	width: 67em;
+}
+body > header > * {
+	margin: 0.5em;
+	display: flex;
+	align-items: center;
+}
+body > header > section {
+	order: -1;
+}
+body > header > nav {
+	order: 1;
+	font-size: 1.2em;
+}
+header > nav > ul > * {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.5em;
+}
+header > nav > ul {
+	list-style: none;
+}
+header > nav li {
+	display: inline;
+}
+header {
+	margin: 0.5em;
+	padding: 0.5em;
+	order: -1;
+}
+header > nav li:hover {
+	background-color: #E8E8E8;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+article {
+	width: 37em;
+	background-color: #E8E8E8;
+	margin: 0.5em;
+	padding: 1.2em;
+}
+body > article {
+	order: 4;
+}
+main > article {
+	order: 1;
+	width: 37em;
+	background-color: #E8E8E8;
+	margin: 0.5em;
+	padding: 0.8em;
+}
+main > form {
+	margin: auto;
+	background-color: #E8E8E8;
+	margin: 0.5em;
+	width: 37em;
+	padding: 0.8em;
+	order: 2;
+}
+label, input, textarea, select {
+	display: inline-block;
+	margin: 0.5em;
+}
+legend {
+	text-align: center;
+	padding-top: 1.5em;
+	font-weight: bold;
+}
+label {
+	font-size: 0.9em;
+    width: 30%;
+    text-align: right;
+}
+textarea {
+	width: 30%;
+	text-align: right;
+}
+select {
+	width: 30%;
+	text-align: right;
+}
+label + input {
+    width: 30%;
+    margin: 0 30% 0 4%;
+}
+input[type="radio"] {
+	display: inline;
+	margin-top: 1em;
+}
+label + textarea {
+	width: 30%;
+	margin: 0 30% 0 4%;
+}
+label + select {
+	width: 30%;
+	margin: 0 30% 0 4%;
+}
+aside {
+	width: 27em;
+	background-color: #E8E8E8;
+	margin: 0.5em;
+	padding: 0.5em;
+	order: 3;
+}
+aside p {
+	line-height: 1.4em;
+	margin-top: 0;
+}
+aside section {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+footer {
+	display: flex;
+	flex-direction: column;
+	width: 37em; 
+	background-color: #E8E8E8;
+	margin: 0.5em;
+	padding: 1.3em;
+	order: 4;
+}
+footer p {
+	margin-top: 0;
+	font-size: 0.9em;
+	width: 25em;
+}
+footer h1 {
+	font-size: 1.1em;
+	margin-top: 1em;
+}
+footer h2 {
+	font-size: 1em;
+	margin-top: 1em;
+}
+footer ul {
+	font-size: 0.9em;
+	margin-top: 0;
+}
+fieldset {
+	border: none;
+	margin: 0.5em;
+}
+@media (max-width: 70em){
+	aside {
+		width: 37em;
+	}
+}
+@media (max-width: 50em){
+	header > nav li {
+		display: block;
+	}
+	aside {
+		width: 35em;
+	}
+	main > article {
+		width: 35em;
+	}
+	article {
+		width: 35em;
+	}
+	main > form {
+		width: 35em;
+	}
+}
+@media (max-width: 40em){
+	main > article {
+		width: 30em;
+	}
+	aside {
+		order: 5;
+	}
+	article {
+		width: 30em;
+	}
+	main > form {
+		width: 30em;
+	}
+	label, input, textarea, select {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin: 0.2em;
+	}
+	label {
+	    width: 50%;
+	    text-align: none;
+	    padding-top: 1em;
+	}
+	textarea {
+		width: 50%;
+		text-align: none;
+	}
+	select {
+		width: 50%;
+		text-align: none;
+	}
+	label + input {
+	    width: 50%;
+	    margin: 0 0 0 0;
+	}
+	label + textarea {
+		width: 50%;
+		margin: 0 0 0 0;
+	}
+	label + select {
+		width: 50%;
+		margin: 0 0 0 0;
+	}
+}
+@media (max-width: 35em) {
+	main > article {
+		width: 28em;
+	}
+	article {
+		width: 28em;
+	}
+	main > form {
+		width: 28em;
+	}
+}
+@media (max-width: 33em) {
+	main > article {
+		width: 25em;
+	}
+	article {
+		width: 25em;
+	}
+	main > form {
+		width: 25em;
+	}
+}
+@media (max-width: 30em){
+	body {
+		background-color: #E8E8E8;
+	}
+	body h1 {
+		font-size: 1.4em;
+	}
+	body h2 {
+		font-size: 1.2em;
+	}
+	body h3 {
+		font-size: 1.1em;
+	}
+	header {
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+	header nav {
+		margin-left: 0;
+		padding-left: 0;
+	}
+	header h1 {
+		font-size: 1.3em;
+	}
+	header p {
+		font-size: 0.9em;
+		text-align: center;
+	}
+	header > form {
+		width: 7em;
+	}
+	header > a {
+		font-size: 0.8em;
+	}
+	main > article {
+		width: 22em;
+	}
+	article {
+		width: 22em;
+	}
+	main > form {
+		width: 22em;
+	}
+	label, input, textarea, select {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin: 0.2em;
+	}
+	label {
+	    width: 80%;
+	    text-align: none;
+	    padding-top: 1em;
+	}
+	textarea {
+		width: 80%;
+		text-align: none;
+	}
+	select {
+		width: 80%;
+		text-align: none;
+	}
+	label + input {
+	    width: 80%;
+	    margin: 0 0 0 0;
+	}
+	input[type="radio"] {
+		display: block;
+	}
+	label + textarea {
+		width: 80%;
+		margin: 0 0 0 0;
+	}
+	label + select {
+		width: 80%;
+		margin: 0 0 0 0;
+	}
+	footer {
+		display: none;
+	}
+}
+@media (max-width: 26em) {
+	main > article {
+		width: 19em;
+		padding: 0;
+	}
+	article {
+		width: 19em;
+	}
+	main > form {
+		width: 19em;
+		padding: 0;
+	}
+	footer {
+		display: none;
+	}
+}
+@media (max-width: 20em) {
+	header section {
+		display: none;
+	}
+	main > article {
+		width: 15em;
+		padding: 0;
+	}
+	article {
+		width: 15em;
+	}
+	main > form {
+		width: 15em;
+		padding: 0;
+	}
+	footer {
+		display: none;
+	}
+}
+@media (max-width: 18em) {
+	main > article {
+		width: 14em;
+		padding: 0;
+	}
+	article {
+		width: 14em;
+	}
+	main > form {
+		width: 14em;
+		padding: 0;
+	}
+	footer {
+		display: none;
+	}
+}
+.is-invisible {
+	display: none;
+}
+.is-visible {
+	display: block;
+}
